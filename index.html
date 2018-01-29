@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Northeasten</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<link href="style.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="javaScript.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <header>
+   <div class="container">
+     <div class="row">
+       
+       <div class="col-md-6">
+     <img class="img-responsive" src="images/northeastern-university.png"/></div>
+      <div class="col-md-6 pull-left"> <img class="img-responsive ISA"  src ="images/ISA.jpg"/></div>
+     </div>
+     </div>
+     </header> 
+<nav class="navbar navbar-inverse navbar-static-top" >
+  <div class="container-fluid">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+
+        <li class="dropdown">       
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Co-curricular <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+<li><a href="#">Events </a></li>
+	          	<li class="dropdown-submenu">
+	                <a tabindex="-1" href="#">Clubs</a>
+	                <ul class="dropdown-menu">
+	                  <li><a tabindex="-1" href="#">Sport</a></li>
+                      <li><a tabindex="-1" href="#">Culture</a></li>
+                      <li><a tabindex="-1" href="#">Art</a></li>
+	                </ul>
+	              </li>
+	          </ul>
+        </li>
+        <li class><a href="#">New Student</a></li>
+ <li class><a href="#">Your Travel Plans</a></li>
+ <li class><a href="#">About Us</a></li>
+ <!--  ->end<!-->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+               <li class="dropdown">
+        <!--<li><a  class="dropdown-toggle" data-toggle="dropdown" data-target="#myModal" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>-->
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span><b> Login </b><span class="caret"></span></a>
+         <ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group" id="margins">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group" id="margins">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group" id="margins">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox" id="margins">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+<div class="container">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/sliderimage1.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="images/sliderimage2.jpeg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="images/sliderimage3.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="images/sliderimage4.jpg" alt="Flower">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<div class="container " id="border">
+<h3>International Student Assistance</h3>
+    </div>
+<div class="container">
+    <div class="jumbotron" id="jumb">       
+<div class="row" id="rows">
+  <div class="col-sm-12  col-md-6 col-md-push-6"> 
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BQXPmu36Dwc" frameborder="0" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-md-pull-6"> 
+Northeastern offers the green spaces and tree-lined pathways of a traditional college campus combined with the energy and diversity of a university set in the heart of a vibrant city.
+More than 300 student clubs and organizations and a stimulating mix of social, athletic, and cultural events build a strong sense of community and offer lessons in leadership, mutual respect, civility, and teamwork.
+Students embrace Boston as an international hub of culture, education, and recreation. The city and its institutions inspire our community, broaden our academic programs, and invigorate our cultural and social perspectives. The Boston campus is enriched and enlarged by the diversity of a student body that hails from 50 states and 139 countries. More than 29 percent of our undergraduates are students of color, and 20 percent are international students.
+</div>
+
+
+        
+            </div>
+
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="jumbotron" id="jumb">       
+<div class="row" id="rows">
+    <div class="col-md-6"> 
+Northeastern offers the green spaces and tree-lined pathways of a traditional college campus combined with the energy and diversity of a university set in the heart of a vibrant city.
+More than 300 student clubs and organizations and a stimulating mix of social, athletic, and cultural events build a strong sense of community and offer lessons in leadership, mutual respect, civility, and teamwork.
+Students embrace Boston as an international hub of culture, education, and recreation. The city and its institutions inspire our community, broaden our academic programs, and invigorate our cultural and social perspectives. The Boston campus is enriched and enlarged by the diversity of a student body that hails from 50 states and 139 countries. More than 29 percent of our undergraduates are students of color, and 20 percent are international students.
+</div>
+<div class="col-md-6 hidden-xs"> 
+ <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BQXPmu36Dwc" frameborder="0" allowfullscreen></iframe>
+    </div>
+        
+            </div>
+
+    </div>
+    </div>
+
+    </body>
+
+</html>
